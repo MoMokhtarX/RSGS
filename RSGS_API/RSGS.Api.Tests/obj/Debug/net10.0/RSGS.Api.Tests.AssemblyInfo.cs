@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RSGS.Api.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a800e15290b97f032d10837eea570693f0e25f72")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb79ded0bcbc2837b0310df55e2ac804940328e0")]
 [assembly: System.Reflection.AssemblyProductAttribute("RSGS.Api.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RSGS.Api.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
