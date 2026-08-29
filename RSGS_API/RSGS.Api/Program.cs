@@ -151,6 +151,13 @@ builder.Services.AddSingleton<Microsoft.AspNetCore.Authorization.IAuthorizationH
 
 var app = builder.Build();
 
+// Apply pending EF Core migrations automatically
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    await db.Database.MigrateAsync();
+}
+
 var seedAdminOnStartup = builder.Configuration.GetValue<bool>("Admin:SeedOnStartup");
 if (seedAdminOnStartup && !app.Environment.IsDevelopment())
 {
