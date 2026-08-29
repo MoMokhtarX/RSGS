@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="RSGS.Api.csproj" />
+  <Project Path="..\RSGS.Api.Tests\RSGS.Api.Tests.csproj" />
+</Solution>

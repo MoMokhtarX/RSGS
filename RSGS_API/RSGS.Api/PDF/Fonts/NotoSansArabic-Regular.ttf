@@ -1,0 +1,6 @@
+﻿namespace RSGS.Api.PDF.Fonts
+{
+    public class NotoSansArabic_Regular
+    {
+    }
+}
